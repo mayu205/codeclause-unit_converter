@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-bottom:40px ;
+    
+}
+.conveter{
+    width: 500px;
+    height: 350px; 
+    padding: 100px;
+    background-color: #202020;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 3px 2px rgb(74, 73, 73);
+}
+.conveter span{
+    color: white;
+}
+input{
+    height:35px;
+    padding: 15px 20px;
+}
+#input{
+        margin-left: 5%;
+        text-align: center;   
+    }
+#inputType,#resultType{
+        height:35px;
+        padding: 15px 60px;
+        margin-left: 5%;
+        color:rgb(14, 0, 0);
+        background-color: yellow;
+    }
+#resultType{
+        margin-left: 2.5%;
+    }
